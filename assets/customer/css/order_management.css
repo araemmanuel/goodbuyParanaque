@@ -1,0 +1,52 @@
+
+
+
+  /*Smaller devices(portait phones, 567px and below)*/
+  @media (max-width: 576px) { 
+			.common_element_view_banner small
+			{
+				margin-left:  2.5rem !important;
+				margin-top: 0.5rem !important;
+				margin-bottom: 0.5rem !important;
+			}
+	}
+  /*Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) { 
+			.common_element_view_banner small
+			{
+				margin-left:  2.5rem !important;
+				margin-top: 0.5rem !important;
+				margin-bottom: 0.5rem !important;
+			}
+	}
+
+/*Medium devices (tablets, 768px and up)*/
+	@media (min-width: 767px) { 
+			.common_element_view_banner small
+			{
+				margin-left:  2.5rem !important;
+				margin-top: 0.5rem !important;
+				margin-bottom: 0.5rem !important;
+			}
+	}
+
+/*Large devices (desktops, 992px and up)*/
+		@media (min-width: 992px) {
+			.common_element_view_banner small
+			{
+				margin-left:  15rem !important;
+				margin-top: 5rem !important;
+				margin-bottom: 0.5rem !important;
+			}
+		}
+
+
+		.order-column input,div.products_in_orders
+		{
+			display: inline-block;
+		}
+
+		.nowrap
+		{
+			white-space: :nowrap !important;
+		}

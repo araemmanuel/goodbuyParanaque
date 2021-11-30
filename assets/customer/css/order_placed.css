@@ -1,0 +1,13 @@
+.card-message
+{
+	margin: 2rem !important;
+	border: 1px  solid #47A34E !important;
+	padding: 2rem !important;
+	border-radius: 100%;
+}
+
+.card-message 
+{
+	font-style: bold !important;
+	font-size: 36px !important
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "goodbuyph-215412",
+  "private_key_id": "3440f3e03f5721c42943888fe739e548be4fc9ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCclbGE+4EDBT5Y\nzgRqgLCiSKqwPsxjjyyKTVC48zEHrZes00pAGyzekXs1Ms8wmzrtsl872NlUO9g0\n0JT++1l4c4v9Srmo6fDw2Xvynv6JzWTV4TITfJ0p2V3b8cIa6o09hv3aocX6lmZt\nHY/b6Hv+oXPt9Wolgg8IY8HdOxFRfecNU+jp0lOLsny5SPQqSMK8hxpjJzhyq64G\n4XMeugB0WciTf8shiKnrKrurOOzY3P0njlgAZBzOXpk7NOCKV+0hTkQcD+iIHuyj\n2IXBszsoGN31tvubJjr2f43iNFeXpQnDlcKcMh9jK0jlCLmeGtoeknx80l1Xpyv9\nIrPlI/i/AgMBAAECggEAAs6DhjeyJruQ5mJQr/Lht6SsYEimvPKvCdeXght2Z2FB\n5yq3h0ijIWYsvwynGcynpwmlCMkotBrSgW60Q9rrhOvp3ONsuDthQqkTUK/dLiSV\n7NXLz9jAHZKiAaH5BAI1tsLC0mRHFcPK86RSJxg7SL8A+WTPdh/Lrgr2AHxzjykS\nGFy4Wm9YeluLl9/7IC/Pj7FuBbZeVecH3Iq3w0N+mNb6/7XdyN/dj2El/CyMiXCq\n04xI6k1ZJWmQj0ISgqibQ5jZjTk5VZLX6w2f+/RWFYhFs7b+MoOCVZL8AooYE+hk\nhpIvBQF+SaAfgQ1x2LwKjIED6r3DVn3rbIH2F5YOsQKBgQDU8CMLme9AHpGSlOJS\ndXeA4J1Aq/UVZ9Z1J5daYq/poR4JLMP1G8ZjsdwePYmRj5vVLJxwBjqEC9zdAT2z\ndwcjOLDNYdQF9wIjVhVCML3MNvumP5+y4yOWSlPiG/QAAwlZeNM5NaBsPoC4ipEk\nfkdEywy28VoBwmEpiEkZ2QlmiQKBgQC8QCFcRDc+w8OvNfV3TIHc4YTrbhMWb97U\nyDAI7GTWtp8gKk3sxjtoilhvgB+WwEJv0UwGu3+MY+WVEdKtZhIS/mn4SJ6DyEVm\na1gxMk8t14oJK+Y9Jte2xfjUUaN8+EjIVYBoY++Hz/2YqJbEj9VbvMg1nIm+T1tS\nh1ob95YTBwKBgD/mjG3H1R9lzQOzADQEokcfoLEuqU6yKY5gwi/Sm729pvjT4T5m\nBmQWlNrSVr1C3l3blFqd0+Oad74uyChaGN89/Pi1Wd4sYQzfoWOKovpsqZobT75s\nIVrRlViuUMvMHXsnIiPx7uFs5E3870+HQbXoRTmFNiB/B49iIaXLFuIZAoGAdJJl\n1iPr7fL+D1ajnW+ED0qbq8prCX7XBv68OBpiy08lNJ7dyFxs12ysHMfDR+/gdCuw\nH48mCcKmnWv/AR9u29ItvvEBL+vpheW9JCHaRDHvqYREu+N8uxLW5mtziOSa9Wt0\n66/O2VQj3s+vJSNIZNl/RSudZHrxuyZT13O2vCsCgYAeLxSBI/uefBgJTMTgLtMu\naRoXz2r+/0DUlvbh7aYMNyWBoD7v6G9qPpzEqn6MplxUCduw26Yw9kMbGxugBb9l\n2Co0OZsKhNLWDe53fBiwtVNCifZmzXnMBvskTJ6rYHAFux4lIB/r1/RUly5qFpZw\nyzfsgfcN2UECr3X5O2ZpUg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "goodbuy-ph-com@goodbuyph-215412.iam.gserviceaccount.com",
+  "client_id": "110989449153555079355",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/goodbuy-ph-com%40goodbuyph-215412.iam.gserviceaccount.com"
+}

@@ -1,0 +1,109 @@
+/*Smaller devices(portait phones, 567px and below)*/
+  @media (max-width: 576px) { 
+			.common_element_view_holder
+			{
+				margin-top: 3rem !important;
+				margin-left: 2.5rem !important;
+				margin-right: 2.5rem !important;
+			}
+			.common_element_view_banner h2
+			{
+				margin-top: 15rem !important;
+				margin-left: 2.5rem !important;
+				color: #212529 !important;
+				font-style: bold;
+				font-size: 50px !important;
+			}
+			
+			.common_element_view_banner .breadcrumb
+			{
+				margin-left: 1.5rem !important;
+			}
+	}
+  /*Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) { 
+			.common_element_view_holder
+			{
+				margin-top: 5rem !important;
+				margin-left: 2.5rem !important;
+				margin-right: 2.5rem !important;
+			}
+			.common_element_view_banner h2
+			{
+				margin-top: 15rem !important;
+				margin-left: 2.5rem !important;
+				color: #212529 !important;
+				font-style: bold;
+				font-size: 50px !important;
+			}
+			
+			.common_element_view_banner .breadcrumb
+			{
+				margin-left: 1.5rem !important;
+			}
+	}
+
+/*Medium devices (tablets, 768px and up)*/
+	@media (min-width: 767px) { 
+			.common_element_view_holder
+			{
+				margin-top: 5rem !important;
+				margin-left: 2.5rem !important;
+				margin-right: 2.5rem !important;
+			}
+			.common_element_view_banner h2
+			{
+				margin-top: 5rem !important;
+				margin-left: 2.5rem !important;
+				color: #212529 !important;
+				font-style: bold;
+				font-size: 50px !important;
+			}
+			
+			.common_element_view_banner .breadcrumb
+			{
+				margin-left: 15rem !important;
+			}
+	}
+
+/*Large devices (desktops, 992px and up)*/
+		@media (min-width: 992px) {
+			.common_element_view_holder
+			{
+				margin-top: 5rem !important;
+				margin-left: 2.5rem !important;
+				margin-right: 2.5rem !important;
+			}
+			.common_element_view_banner h2
+			{
+				margin-top: 5rem !important;
+				margin-left: 15rem !important;
+				color: #212529 !important;
+				font-style: bold;
+				font-size: 50px !important;
+			}
+			.common_element_view_card
+			{
+				margin-top: 2rem !important;
+				margin-left: 11rem !important;
+				
+			}
+			.common_element_view_body_sizes
+			{
+				margin: 1rem !important;
+			}
+			.tab-content,.tab-nav-right
+			{
+				width: 75% !important;
+			}
+			
+			.common_element_view_banner .breadcrumb
+			{
+				margin-left: 15rem !important;
+			}
+		}
+		
+		.href_link
+		{
+			text-decoration: none !important;
+		}

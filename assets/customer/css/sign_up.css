@@ -1,0 +1,8 @@
+.step_by_step_form li
+{
+	display: inline-block !important;
+	color: white !important;
+	background-color: #47A34E !important;
+	font-size: 14px !important;
+	padding:1.75rem !important;
+}
