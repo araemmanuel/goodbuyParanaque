@@ -44,10 +44,10 @@ else
 {
     $config['base_url'] = 'http://'.$domain;
 }*/
-if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on"){$ssl_set = "s";} else{$ssl_set = "";}
-$config['base_url'] = 'http'.$ssl_set.'://'.$_SERVER['HTTP_HOST'];
+// if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on"){$ssl_set = "s";} else{$ssl_set = "";}
+// $config['base_url'] = 'http'.$ssl_set.'://'.$_SERVER['HTTP_HOST'];
 // $config['base_url'] = 'http://paranaque.goodbuy-bolinao.com/';
-// $config['base_url'] = 'http://localhost/goodbuy-ph/';
+$config['base_url'] = 'http://localhost/goodbuyParanaque/';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -423,9 +423,9 @@ $config['sess_regenerate_destroy'] = FALSE;
 |       'cookie_httponly') will also affect sessions.
 |
 */
-$config['cookie_prefix']	= 'goodbuy-ph_';
-$config['cookie_domain']	= '.goodbuy-bolinao.com';
-//$config['cookie_domain']	= 'localhost';
+// $config['cookie_prefix']	= 'goodbuy-ph_';
+// $config['cookie_domain']	= '.goodbuy-bolinao.com';
+$config['cookie_domain']	= 'localhost';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
