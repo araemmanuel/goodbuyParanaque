@@ -91,18 +91,21 @@
 												<th>Product Name</th>
 												<th>Attributes</th>												
 												<th>Begin<br>ning Inventory</th>
-												<th>Stock on Hand</th>		
+												<th>Stock on Hand</th>
+												<th>Purchase Price</th>		
 												<th>Selling Price</th>
-												<th>Total Cost</th>	
+												<th title="Stock on hand * PURCHASE Price">Total Purchase Cost</th>	
+												<th title="Stock on hand * SELLING Price">Total Selling Cost</th>	
 											</tr>
 										</thead>
 										<tbody>
 										
 										<?php 
-											$total = 0;
+										$totalpurpri = $total = 0;
 											foreach($detailed_inventory as $i):
 												$date = date('m-d-Y', strtotime($i->prod_date));
 												$total = $total + $i->total_cost;
+												$totalpurpri = $totalpurpri + $i->total_purchase_price;
 											?>									
 											<tr>
 												<td><?=html_escape($date)?></td>
@@ -111,7 +114,9 @@
 												<td><?=html_escape($i->options)?></td>
 												<td><?=html_escape($i->beginning_invent)?></td>         
 												<td><?=html_escape($i->quantity)?></td>
-												<td><?=html_escape(number_format($i->selling_price, 2))?></td> 		
+												<td><?=html_escape(number_format($i->purchase_price, 2))?></td> 		
+												<td><?=html_escape(number_format($i->selling_price, 2))?></td>
+												<td><?=html_escape(number_format($i->total_purchase_price, 2))?></td> 	
 												<td><?=html_escape(number_format($i->total_cost, 2))?></td> 	
 											</tr>
 										<?php endforeach;?>	
@@ -125,7 +130,9 @@
 												<td></td>
 												<td></td>
 												<td></td>
+												<td></td>
 												<td>GRAND TOTAL</td>
+												<td>₱ <?=number_format($totalpurpri,2)?></td>
 												<td>₱ <?=number_format($total,2)?></td>
 											</tr>
 										</tfoot>

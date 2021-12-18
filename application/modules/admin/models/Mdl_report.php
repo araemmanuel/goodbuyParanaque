@@ -352,7 +352,7 @@ class Mdl_Report extends My_Model{
 				LEFT JOIN tbloption O ON O.opt_id = POT.option_id WHERE POT.prod_id = PV.prod_id AND POT.sku = PV.sku ORDER BY O.opt_name) as options,
 				IF((SELECT qty FROM tblstock_history WHERE date_added < ?  AND prod_id = P.prod_id LIMIT 1) IS NULL,
 				0, (SELECT qty FROM tblstock_history WHERE date_added < ?  AND prod_id = P.prod_id LIMIT 1)) AS beginning_invent,
-				PV.quantity,  PV.selling_price, (PV.quantity * PV.selling_price) AS total_cost 
+				PV.quantity,  PV.purchase_price,  PV.selling_price, (PV.quantity * PV.selling_price) AS total_cost , (PV.quantity * PV.purchase_price) AS total_purchase_price
 				FROM `tblproduct_variant` PV
 				JOIN tblproduct P ON P.prod_id = PV.prod_id
                 JOIN tblsubcategory SC ON SC.subcat_id = P.subcat_id
