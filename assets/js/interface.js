@@ -7,8 +7,8 @@
 	sessionStorage.setItem('prod_edit_last_user', 'none');		
 	sessionStorage.setItem('var_add_last_user', 'none');		
 	sessionStorage.setItem('var_edit_last_user', 'none');		
-	var baseURL = 'http://paranaque.goodbuy-bolinao.com/';
-	// var baseURL = 'http://localhost/goodbuy-ph/';
+	// var baseURL = 'http://paranaque.goodbuy-bolinao.com/';
+	var baseURL = 'http://localhost/goodbuyParanaque/';
 	//START SIG	
 	load_category_charts(baseURL);
 	chart(baseURL, 'admin/get_monthly_sale_chart', "monthly-sales");

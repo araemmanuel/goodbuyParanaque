@@ -528,7 +528,7 @@ class Inventory extends My_Controller {
 			$this->form_validation->set_rules('prod_pprice', 'Product Purchasing Price', 'trim|required|callback_decimal');
 			$this->form_validation->set_rules('prod_sprice', 'Product Selling Price', 'trim|required|callback_decimal');
 			$this->form_validation->set_rules('prod_qty', 'Product Quantity', 'trim|required');
-			$this->form_validation->set_rules('Color', 'Color', 'trim|required');
+			$this->form_validation->set_rules('Color', 'Color', 'trim');
 		
 			if ($this->form_validation->run($this) == FALSE) 
 			{		
@@ -576,7 +576,7 @@ class Inventory extends My_Controller {
 		{
 			//If attribute value exists 
 			$attrib_type_id = $this->mdl_option_group->get_col_where('opt_grp_id', 'opt_grp_name', $o->opt_grp_name);
-			$attrib_val = $this->input->post($o->opt_grp_name);
+			$attrib_val = !empty($this->input->post($o->opt_grp_name)) ? $this->input->post($o->opt_grp_name) : 'N/A';
 			if(!$this->mdl_option->get_by_type($attrib_type_id, $attrib_val) && $attrib_val)
 			{
 				$data['opt_grp_id']= $attrib_type_id;
@@ -699,6 +699,7 @@ class Inventory extends My_Controller {
 		{
 			$data['sku'] = $cat_code . $subcat_code . $this->mdl_product->get_pcode_num($cat_id, $subcat_id);
 			$data['date_added'] =  $this->input->post('date_delivered');
+			$data['expiration_date'] = $this->input->post('date_expire');
 		}				
 		
 		return $data;

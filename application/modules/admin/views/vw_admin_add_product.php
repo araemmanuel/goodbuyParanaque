@@ -129,7 +129,7 @@
 										</div>
 									</div>	
 									<div class="row clearfix">
-										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 											<br>
 											<div class="form-group form-float">
 												<div class="form-line success">
@@ -146,7 +146,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 											<br>
 											<div class="form-group form-float">
 												<div class="form-line success">
@@ -158,7 +158,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 													<div class="form-group form-float">
 													<small class="form-label col-grey">Date Delivered</small>
 													<div class="form-line success">			
@@ -170,6 +170,18 @@
 													</div>
 												</div>
 										</div>
+										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+											<div class="form-group form-float">
+											<small class="form-label col-grey">Expiration Date</small>
+											<div class="form-line success">			
+												<input type="date" name='date_expire' id="expiration_date" class="form-control" value = "<?php echo date("Y-m-d");?>"/>
+												
+												<div class='validation-errors'>
+													<?php echo form_error('date_expire');?>
+												</div>
+											</div>
+										</div>
+								</div>
 									</div>
 									<div class="row clearfix">
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

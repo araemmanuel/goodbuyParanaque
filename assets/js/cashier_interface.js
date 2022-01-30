@@ -2,8 +2,8 @@
 (function($){
 	//var baseURL = 'https://almiranezgecilie68358.ipage.com/BSIT2019/goodbuy/';
 	//var baseURL = 'http://localhost/goodBuy1/';
-	var baseURL = 'http://paranaque.goodbuy-bolinao.com/';
-	// var baseURL = 'http://localhost/goodbuy-ph/';
+	// var baseURL = 'http://paranaque.goodbuy-bolinao.com/';
+	var baseURL = 'http://localhost/goodbuyParanaque/';
 	var timer = null;
 	var timeout = 500;
 	//var baseURL = 'https://almiranezgecilie68358.ipage.com/BSIT2019/goodbuy/';
